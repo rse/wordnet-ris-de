@@ -1,6 +1,6 @@
 {
     "name":        "wordnet-ris-de",
-    "version":     "0.9.0",
+    "version":     "0.9.1",
     "description": "WordNet Reduced Information Set (RIS): German (DE)",
     "keywords":    [ "wordnet", "reduced", "information", "set", "de", "german" ],
     "main":        "wordnet-ris-de.js",
