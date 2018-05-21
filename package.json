@@ -19,16 +19,16 @@
     "devDependencies": {
     },
     "dependencies": {
-        "wordnet-ris":             "0.9.0",
+        "wordnet-ris":             "0.9.1",
         "wordnet-lmf-de":          "0.9.5"
     },
     "peerDependencies": {
-        "wordnet-ris":             "0.9.0"
+        "wordnet-ris":             "0.9.1"
     },
     "engines": {
         "node":                    ">=8.0.0"
     },
     "scripts": {
-        "install": "wordnet-ris -d wordnet-ris-de.db import node_modules/wordnet-lmf-de/wordnet-lmf-de.db"
+        "install": "wordnet-ris -d wordnet-ris-de.db import @wordnet-lmf-de/wordnet-lmf-de.db"
     }
 }
