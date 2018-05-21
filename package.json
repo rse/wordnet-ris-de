@@ -1,0 +1,37 @@
+{
+    "name":        "wordnet-ris-de",
+    "version":     "0.9.0",
+    "description": "WordNet Reduced Information Set (RIS): German (DE)",
+    "keywords":    [ "wordnet", "reduced", "information", "set", "de", "german" ],
+    "main":        "wordnet-ris-de.js",
+    "repository": {
+        "type": "git",
+        "url":  "https://github.com/rse/wordnet-ris-de.git"
+    },
+    "author": {
+        "name":  "Ralf S. Engelschall",
+        "email": "rse@engelschall.com",
+        "url":   "http://engelschall.com"
+    },
+    "license":  "CC-BY-SA-4.0",
+    "homepage": "https://github.com/rse/wordnet-ris-de",
+    "bugs":     "https://github.com/rse/wordnet-ris-de/issues",
+    "devDependencies": {
+    },
+    "dependencies": {
+        "npm-run-all":             "4.1.3",
+        "npm-install-fetch":       "0.9.3",
+        "wordnet-ris":             "0.9.4"
+    },
+    "peerDependencies": {
+        "wordnet-ris":             "0.9.4"
+    },
+    "engines": {
+        "node":                    ">=8.0.0"
+    },
+    "scripts": {
+        "install":  "npm-run-all -s fetch import",
+        "fetch":    "npm-install-fetch",
+        "import":   "wordnet-ris -d wordnet-ris-de.db import node_modules/wordnet-lmf-de/wordnet-lmf-de.db"
+    }
+}
