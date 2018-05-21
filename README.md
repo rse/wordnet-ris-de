@@ -50,6 +50,22 @@ Usage
 
 ```
 Open DE WordNet 1.0 (2018-05-11) [26 MB, CC-BY-SA-4.0]
+{ pos: 'n',
+  syn:
+   [ 'Ansager',
+     'Berichterstatter',
+     'Conférencier',
+     'Moderator',
+     'Orator (fachspr., lat., veraltend)',
+     'Pressesprecher',
+     'Redner',
+     'Referent',
+     'Referierender',
+     'Rhetor (fachspr., griechisch, lat., veraltet)',
+     'Rhetoriker',
+     'Unternehmenssprecher',
+     'Verantwortliche(r) für die Öffentlichkeitsarbeit',
+     'Vortragender' ] }
 ```
 
 License
