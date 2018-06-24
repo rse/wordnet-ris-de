@@ -26,7 +26,7 @@ const path = require("path")
 const pkg  = require("wordnet-lmf-de/package.json")
 
 module.exports = {
-    name: pkg["npm-install-fetch"][0].name,
+    name: pkg["npm-install-fetch"].name,
     db:   path.join(__dirname, "wordnet-ris-de.db")
 }
 
