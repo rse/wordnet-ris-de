@@ -49,29 +49,33 @@ Usage
 ```
 
 ```
-Open DE WordNet 1.0 (2018-05-11) [26 MB, CC-BY-SA-4.0]
-{ pos: 'n',
-  syn:
-   [ 'Ansager',
-     'Berichterstatter',
-     'Conférencier',
-     'Moderator',
-     'Orator (fachspr., lat., veraltend)',
-     'Pressesprecher',
-     'Redner',
-     'Referent',
-     'Referierender',
-     'Rhetor (fachspr., griechisch, lat., veraltet)',
-     'Rhetoriker',
-     'Unternehmenssprecher',
-     'Verantwortliche(r) für die Öffentlichkeitsarbeit',
-     'Vortragender' ] }
+Open DE WordNet 1.3 (2019-06-16) [120K words, CC-BY-SA-4.0]
+{
+  lemma: 'Sprecher',
+  pos: 'n',
+  syn: [
+    'Ansager',
+    'Conférencier',
+    'Moderator',
+    'Pressesprecher',
+    'Unternehmenssprecher',
+    'Verantwortliche(r) für die Öffentlichkeitsarbeit',
+    'Berichterstatter',
+    'Orator',
+    'Redner',
+    'Referent',
+    'Referierender',
+    'Rhetor',
+    'Rhetoriker',
+    'Vortragender'
+  ]
+}
 ```
 
 License
 -------
 
-Copyright (c) 2018 Ralf S. Engelschall (http://engelschall.com/)
+Copyright (c) 2018-2019 Dr. Ralf S. Engelschall (http://engelschall.com/)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
