@@ -17,11 +17,11 @@
     "devDependencies": {
     },
     "dependencies": {
-        "wordnet-ris":             "0.9.12",
-        "wordnet-lmf-de":          "0.9.15"
+        "wordnet-ris":             "0.9.13",
+        "wordnet-lmf-de":          "0.9.16"
     },
     "peerDependencies": {
-        "wordnet-ris":             "0.9.12"
+        "wordnet-ris":             "0.9.13"
     },
     "engines": {
         "node":                    ">=18.0.0"
