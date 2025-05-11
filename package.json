@@ -1,22 +1,19 @@
 {
-    "name":        "wordnet-ris-de",
-    "version":     "0.9.8",
-    "description": "WordNet Reduced Information Set (RIS): German (DE)",
-    "keywords":    [ "wordnet", "reduced", "information", "set", "de", "german" ],
-    "main":        "wordnet-ris-de.js",
-    "types":       "wordnet-ris-de.d.ts",
-    "repository": {
-        "type": "git",
-        "url":  "https://github.com/rse/wordnet-ris-de.git"
-    },
+    "name":                        "wordnet-ris-de",
+    "version":                     "0.9.8",
+    "description":                 "WordNet Reduced Information Set (RIS): German (DE)",
+    "keywords":                    [ "wordnet", "reduced", "information", "set", "de", "german" ],
+    "main":                        "wordnet-ris-de.js",
+    "types":                       "wordnet-ris-de.d.ts",
+    "repository":                  { "type": "git", "url": "git+https://github.com/rse/wordnet-ris-de.git" },
     "author": {
-        "name":  "Dr. Ralf S. Engelschall",
-        "email": "rse@engelschall.com",
-        "url":   "http://engelschall.com"
+        "name":                    "Dr. Ralf S. Engelschall",
+        "email":                   "rse@engelschall.com",
+        "url":                     "http://engelschall.com"
     },
-    "license":  "CC-BY-SA-4.0",
-    "homepage": "https://github.com/rse/wordnet-ris-de",
-    "bugs":     "https://github.com/rse/wordnet-ris-de/issues",
+    "license":                     "CC-BY-SA-4.0",
+    "homepage":                    "https://github.com/rse/wordnet-ris-de",
+    "bugs":                        "https://github.com/rse/wordnet-ris-de/issues",
     "devDependencies": {
     },
     "dependencies": {
@@ -27,9 +24,9 @@
         "wordnet-ris":             "0.9.12"
     },
     "engines": {
-        "node":                    ">=8.0.0"
+        "node":                    ">=18.0.0"
     },
     "scripts": {
-        "install": "wordnet-ris -d wordnet-ris-de.db import @wordnet-lmf-de/wordnet-lmf-de.db"
+        "install":                 "wordnet-ris -d wordnet-ris-de.db import @wordnet-lmf-de/wordnet-lmf-de.db"
     }
 }
