@@ -4,6 +4,7 @@
     "description": "WordNet Reduced Information Set (RIS): German (DE)",
     "keywords":    [ "wordnet", "reduced", "information", "set", "de", "german" ],
     "main":        "wordnet-ris-de.js",
+    "types":       "wordnet-ris-de.d.ts",
     "repository": {
         "type": "git",
         "url":  "https://github.com/rse/wordnet-ris-de.git"
